@@ -3,6 +3,8 @@ import HeroSetion from "@/components/HeroSetion";
 import WhyChoseUs from "../components/WhyChoseUs";
 import TestimonialCards from "@/components/TestimonialCards";
 import UpcomingWebnars from "@/components/UpcomingWebnars";
+import Instructors from "../components/Instructors";
+import Footer from "@/components/Footer";
 
 
 export default function Home() {
@@ -13,6 +15,8 @@ export default function Home() {
               <WhyChoseUs/>
               <TestimonialCards/>
               <UpcomingWebnars/>
+              <Instructors/>
+              <Footer/>
         </main>
   );
 }
