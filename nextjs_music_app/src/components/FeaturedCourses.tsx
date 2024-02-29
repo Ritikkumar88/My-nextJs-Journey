@@ -26,7 +26,7 @@ function FeaturedCourses() {
         </div>
       </div>
 
-      <div className='mt-10'>
+      <div className='mt-10 m-10'>
         <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center'>
           {featuredCourses.map((course: Courses) => (
             <div key={course.id} className='flex justify-center text-white'>
